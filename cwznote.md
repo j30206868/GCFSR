@@ -40,4 +40,5 @@ if BASICSR_JIT == 'True':
 ```
 
 #### 執行
+- **每張影像大小必須要是512x512**
 `python inference/inference_gcfsr_blind.py --model_path gcfsr_blind_512.pth --input inputs/whole_imgs`
